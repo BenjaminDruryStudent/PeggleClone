@@ -3,13 +3,18 @@ using System.Collections;
 
 public class BallController : MonoBehaviour {
 
-	// Use this for initialization
+    [Tooltip("The max speed the ball will be able to travil through the physics space")]
+    public float maxballspeed;
+    Rigidbody2D rb;
+    
+    // Use this for initialization
 	void Start () {
-	
+        rb = GetComponent<Rigidbody2D>();
+
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void FixUpdate () {
+	    rb.velocity.sqrMagnitude
 	}
 }
