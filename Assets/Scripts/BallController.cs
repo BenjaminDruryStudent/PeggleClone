@@ -15,6 +15,6 @@ public class BallController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixUpdate () {
-	    rb.velocity.sqrMagnitude
+	    //rb.velocity.sqrMagnitude
 	}
 }
