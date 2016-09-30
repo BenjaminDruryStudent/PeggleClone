@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour {
     public GameObject paddleL;
     [Tooltip("The Refrence to the Right Paddle")]
     public GameObject paddleR;
-    [Tooltip("Controlles the speed that the Paddles move, this affect the velocity emparted to the ball")]
+    [Tooltip("Controlles the speed that the Paddles move, this affect's the velocity emparted to the ball")]
     public float paddleSwingSpeed;
     HingeJoint2D paddleHingeL;
     HingeJoint2D paddleHingeR;
